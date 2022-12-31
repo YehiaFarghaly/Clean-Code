@@ -1,10 +1,10 @@
 # Clean-Code
 Summary of Clean Code book by 'Robert C. Martin' :book:
 ### Table of Content :
-* [Chapter (2) Meaningful names](#chapter-2-meaningful-names-label)
-
-
-## Chapter 2 Meaningful names :label:
+- [Chapter (2) Meaningful names](#chapter-2-meaningful-names-eyes)
+- [Chapter (3) Functions](#chapter-3-functions-eyes)
+___
+## Chapter 2 Meaningful names :eyes:
 * The variable name should tell why it exists, what it does and how it is used.
 * The name that needs a comment then it does not show its intent.
 * Do not refer to a grouping of accounts as an accountList even if you put them in a list, better use **accounts** or **accountGroup** or etc..
@@ -17,6 +17,10 @@ Summary of Clean Code book by 'Robert C. Martin' :book:
 * Avoid using the same word for two purposes. Let’s say we have many classes where add will concatenate two existing Strings. Now let’s say we are writing a new class that has a method that puts its single parameter into a collection. Should we call this method add? No. we can call it **insert** or **append** or etc..
 * Remember that the people who read your code will be **programmers**. So go ahead and use computer science (**CS**) terms.
 * Imagine that you have variables named firstName, lastName, street, houseNumber, city, state, and zipcode. Taken together it’s pretty clear that they form an address. But what if you just saw the **state** variable being used alone in a method? Would you automatically infer that it was part of an address? Solution is to create a class named **Address**. Then, even the compiler knows that the variables belong to a bigger concept.
+___
+## Chapter 3 Functions :eyes:
+* The first rule of functions is that they should be ~~multi-task~~ **SMALL**. Functions should not be 100 lines long neither 20 lines long. 
+* ***FUNCTIONS SHOULD DO ONE THING. THEY SHOULD DO IT WELL. THEY SHOULD DO IT ONLY***
 
 
 
