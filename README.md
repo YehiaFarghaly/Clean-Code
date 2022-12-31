@@ -1,10 +1,10 @@
 # Clean-Code
-Summary of Clean Code book by 'Robert C. Martin'
+Summary of Clean Code book by 'Robert C. Martin' :book:
 ### Table of Content :
-* [Chapter (2) Meaningful names](#chapter-2-meaningful-names)
+* [Chapter (2) Meaningful names](#chapter-2-meaningful-names-label)
 
 
-## Chapter 2 Meaningful names
+## Chapter 2 Meaningful names :label:
 * The variable name should tell why it exists, what it does and how it is used.
 * The name that needs a comment then it does not show its intent.
 * Do not refer to a grouping of accounts as an accountList even if you put them in a list, better use **accounts** or **accountGroup** or etc..
