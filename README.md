@@ -4,6 +4,7 @@ Summary of Clean Code book by 'Robert C. Martin' :book:
 - [Chapter (2) Meaningful names](#chapter-2-meaningful-names-eyes)
 - [Chapter (3) Functions](#chapter-3-functions-eyes)
 - [Chapter (4) Comments](#chapter-4-comments-eyes)
+- [Chapter (5) Formatting](#chapter-5-formatting-eyes)
 ___
 ## Chapter 2 Meaningful names :eyes:
 * The variable name should tell why it exists, what it does and how it is used.
@@ -260,3 +261,4 @@ yourself wanting to mark your closing braces, try to shorten your functions inst
 it is there for a reason and is too important to delete.
 * make sure that the comment describes the code it appears near. Don’t
 offer systemwide information in the context of a local comment
+## Chapter 5 Formatting :eyes:
