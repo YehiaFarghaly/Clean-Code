@@ -262,3 +262,23 @@ it is there for a reason and is too important to delete.
 * make sure that the comment describes the code it appears near. Don’t
 offer systemwide information in the context of a local comment
 ## Chapter 5 Formatting :eyes:
+* If you are working on a team, then the team should agree to a single set of
+formatting rules and all members should comply
+* Each line represents an expression or
+a clause, and each group of lines represents a complete thought. Those thoughts should be
+separated from each other with blank lines.
+* Detail should increase as we move downward, until at the end
+we find the lowest level functions and details in the source file.
+* Instance variables should exist at the top of the class by conventions.  
+* If one function calls another, they should be vertically close,
+and the caller should be above the callee.  
+* Certain bits of code want
+to be near other bits. They have a certain
+conceptual affinity. The stronger that affinity, the
+less vertical
+* Programmers clearly prefer short lines, so your line should be from 80 to 120 char. 
+* We indent the lines of source code in proportion
+to their position in the hiearchy. Statements at the level of the file, such as most
+class declarations, are not indented at all. Methods within a class are indented one level
+to the right of the class. Implementations of those methods are implemented one level to
+the right of the method declaration and etc..
