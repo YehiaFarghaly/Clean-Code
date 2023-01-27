@@ -5,6 +5,7 @@ Summary of Clean Code book by 'Robert C. Martin' :book:
 - [Chapter (3) Functions](#chapter-3-functions-eyes)
 - [Chapter (4) Comments](#chapter-4-comments-eyes)
 - [Chapter (5) Formatting](#chapter-5-formatting-eyes)
+- [Chapter (6) Objects and Data Structures](#chapter-6-objects-and-data-structures-eyes)
 ___
 ## Chapter 2 Meaningful names :eyes:
 * The variable name should tell why it exists, what it does and how it is used.
@@ -282,3 +283,4 @@ to their position in the hiearchy. Statements at the level of the file, such as 
 class declarations, are not indented at all. Methods within a class are indented one level
 to the right of the class. Implementations of those methods are implemented one level to
 the right of the method declaration and etc..
+## Chapter 6 Objects and Data Structures :eyes:
